@@ -1,7 +1,8 @@
-import type {} from "https://raw.githubusercontent.com/DefinitelyTyped/DefinitelyTyped/master/types/google-apps-script/apis/youtube_v3.d.ts";
+import type { } from "https://raw.githubusercontent.com/DefinitelyTyped/DefinitelyTyped/master/types/google-apps-script/apis/youtube_v3.d.ts";
 
-import { SearchItem, Track } from "../models/anisoon/index.ts";
-import { SyobocalJSONDBEntry } from "../models/syobocal/syobocaldb.ts";
+import { SearchItem, Track } from "https://raw.githubusercontent.com/otiai10/anisoon/main/models/anisoon/index.ts";
+import { SyobocalJSONDBEntry } from "https://raw.githubusercontent.com/otiai10/anisoon/main/models/syobocal/syobocaldb.ts";
+
 import * as path from "https://deno.land/std@0.152.0/path/mod.ts";
 import * as time from "https://deno.land/std@0.152.0/datetime/mod.ts";
 import * as flags from "https://deno.land/std@0.152.0/flags/mod.ts";
